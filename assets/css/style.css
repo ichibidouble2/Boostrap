@@ -90,7 +90,7 @@
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    padding: 20px;
+    padding: 15px;
     margin-bottom: 20px;
     display: inline-flex;
     align-items: center;
@@ -103,8 +103,69 @@
 }
 .section-one .inner-list .box-head .inner-title {
     color: #000;
+    margin-bottom: 30px;
 }
 .section-one .inner-list .box-head .inner-desc {
     font-size: 14px;
+    margin-bottom: 0;
 }
 /* End Section One  */
+
+/* Section Two  */
+.section-two {
+    padding: 80px 0;
+}
+.section-two .box-head {
+    margin-left: 5%;
+}
+.section-two .box-head .inner-title {
+    font-size: 24px;
+    color: #000;
+    margin-bottom: 30px;
+}
+.section-two .box-head .inner-desc {
+    font-size: 15px;
+}
+/* End Section Two  */
+
+
+/* Section Three */
+.section-three {
+    padding: 80px 0;
+}
+.section-three .box-head .inner-title {
+    font-size: 24px;
+    color: #000;
+    margin-bottom: 30px;
+}
+.section-three .box-head .inner-desc {
+    font-size: 15px;
+}
+/* End Section Three */
+
+/* Sectiom Four  */
+.section-four {
+    padding: 80px 0;
+    background-image: url(../images/work-process-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.section-four .box-head {
+    color: #fff;
+}
+.section-four .inner-box {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 48px 0px;
+    background: #fff;
+    padding: 20px 5px;
+    border-radius: 15px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+/* End Sectiom Four  */

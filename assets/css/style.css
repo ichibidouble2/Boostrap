@@ -1,0 +1,92 @@
+/* Head  */
+.head {
+    background: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 40px;
+    margin-top: 30px;
+    padding: 20px;
+    position: relative;
+    z-index: 999;
+}
+.head .inner-logo img {
+    width: 50%;
+}
+.head .inner-menu ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.head .inner-menu ul li {
+    margin-right: 10px;
+}
+/* End Head  */
+
+/* Backgroud */
+.inner-background {
+    background-image: url(../images/banner-bg.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-top: -150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-background .inner-wrap {
+    text-align: center;
+    color: #fff;
+}
+.inner-background .box-head .inner-title {
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.inner-background .inner-button {
+    content: "DISCOVER MORE";
+    width: 200px;
+    padding: 10px;
+    background: #D94B86;
+    border-radius: 20px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.inner-background .inner-button a {
+    color: #fff;
+    font-size: 13px;
+    padding: 15px 37px;
+}
+.inner-background .inner-button:hover {
+    background: #7C5DE4;
+}
+/* End Backgroud */
+
+/* Section One  */
+.section-one {
+    position: relative;
+    margin-top: -200px;
+    z-index: 9;
+}
+.section-one .inner-list .inner-item {
+    background: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 30px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.section-one .inner-list .inner-image {
+    background: #7054CD;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.section-one .inner-list .box-head .inner-title {
+    color: #000;
+}
+/* End Section One  */

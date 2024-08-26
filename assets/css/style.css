@@ -19,6 +19,11 @@
 .head .inner-menu ul li {
     margin-right: 10px;
 }
+@media (max-width: 991.98px) {
+    .head .inner-menu {
+        display: none;
+    }
+}
 /* End Head  */
 
 /* Backgroud */
@@ -51,6 +56,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 30px;
+    margin-bottom: 20px;
 }
 .inner-background .inner-button a {
     color: #fff;
@@ -60,6 +66,7 @@
 .inner-background .inner-button:hover {
     background: #7C5DE4;
 }
+
 /* End Backgroud */
 
 /* Section One  */
@@ -109,12 +116,20 @@
     font-size: 14px;
     margin-bottom: 0;
 }
+@media (max-width: 991.98px) {
+    .section-one {
+        margin-top: 0;
+    }
+}
 /* End Section One  */
 
 /* Section Two  */
 .section-two {
     padding: 80px 0;
 }
+.section-two .inner-img {
+    margin-bottom: 20px;
+} 
 .section-two .box-head {
     margin-left: 5%;
 }
@@ -125,6 +140,13 @@
 }
 .section-two .box-head .inner-desc {
     font-size: 15px;
+}
+@media (max-width: 991.98px) {
+    .section-two .inner-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 /* End Section Two  */
 
@@ -141,11 +163,22 @@
 .section-three .box-head .inner-desc {
     font-size: 15px;
 }
+.section-three .inner-img {
+    margin-top: 20px;
+    text-align: right;
+}
+@media (max-width: 991.98px) {
+    .section-three .inner-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
 /* End Section Three */
 
 /* Sectiom Four  */
 .section-four {
-    padding: 80px 0;
+    padding: 90px 0;
     background-image: url(../images/work-process-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -154,11 +187,15 @@
 
 .section-four .box-head {
     color: #fff;
+    text-align: center;
+}
+.section-four .box-head .inner-desc {
+    margin-bottom: 60px;
 }
 .section-four .inner-box {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 48px 0px;
     background: #fff;
-    padding: 20px 5px;
+    padding: 20px;
     border-radius: 15px;
     display: inline-flex;
     flex-wrap: wrap;
@@ -167,5 +204,124 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
+    position: relative;
+}
+.section-four .inner-box::before {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    background: #fff;
+    width: 100%;
+    opacity: .15;
+    height: 100%;
+    bottom: -10px;
+    left: 0px;
+    right: -20px;
+    margin: auto;
+    border-radius: 20px;
+}
+.section-four .inner-box:hover {
+    margin-top: -10px;
+}
+.section-four .inner-box .inner-image {
+    margin-bottom: 20px;
+}
+.section-four .inner-box .inner-title {
+    color: #000;
+    margin-bottom: 10px;
+}
+.section-four .inner-box .inner-desc {
+    font-size: 14px;
 }
 /* End Sectiom Four  */
+
+/* Contact */
+.contact {
+    background: #F2F2FE;
+    padding: 100px 0;
+}
+.contact .box-head {
+    padding: 30px;
+    text-align: center;
+}
+.contact .box-head .inner-title {
+    color: #000;
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+.contact .box-head .inner-desc {
+    font-size: 14px;
+}
+.contact .inner-content {
+    margin-bottom: 20px;
+}
+.contact .inner-content .title {
+    color: #000;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.contact .inner-content .desc-one {
+    margin-bottom: 40px;
+}
+.contact .inner-form .btn {
+    background: #7154CF;
+    border-radius: 30px;
+    padding: 10px;
+}
+.contact .inner-form .btn:hover {
+    background: #ff589e;
+}
+.contact .inner-form input, .contact .inner-form textarea {
+    border: 1px solid #eee;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.contact .inner-form input {
+   padding: 20px;
+}
+.contact .inner-form textarea {
+    height: 170px;
+    margin-bottom: 30px;
+    resize: none;
+    padding: 20px;
+}
+/* End Contact */
+
+/* Footer  */
+.footer {
+    padding: 35px 0;
+    background: #8860EA;
+}
+.footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer ul li {
+    padding: 10px;
+}
+.footer ul a {
+    background: #fff;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.footer ul a:hover {
+    background: #ff589e;
+    color: #fff;
+}
+.footer .footer-profile {
+    border-top: 1px solid rgba(250, 250, 250, 0.2);
+}
+.footer .footer-profile p {
+    color: #fff;
+    margin: 0;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 30px;
+}
+/* End Footer  */
